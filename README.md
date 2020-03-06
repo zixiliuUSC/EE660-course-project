@@ -2,7 +2,6 @@
 > This project is to build a natural language processing system fitting the relation between Amazon review text and the coresponding product rating. 
 
 [![sklearn Version][sklearn-image]][sklearn-url]
-[![Downloads Stats][sklearn-downloads]][sklearn-url]
 [![Gensim Version][gensim-image]][gensim-url]
 [![NLTK Version][NLTK-image]][NLTK-url]
 [![numpy version][numpy-image]][numpy-url]
@@ -74,7 +73,6 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 <!-- Markdown link & img dfn's -->
 [sklearn-image]: https://img.shields.io/badge/sklearn-0.21.3-blue
 [sklearn-url]: https://scikit-learn.org/stable/
-[sklearn-downloads]: https://img.shields.io/badge/sklearn-download-blue
 [wiki]: https://github.com/yourname/yourproject/wiki
 [gensim-image]:https://img.shields.io/badge/gensim-3.8.1-brightgreen
 [gensim-url]: https://radimrehurek.com/gensim/
