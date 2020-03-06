@@ -30,9 +30,9 @@ All source codes are placed in w2v_train directory. To see all result in [EE_660
 
 Zixi Liu – [@ZixiLiulinkedin](https://www.linkedin.com/in/zixi-liu-403733159/) 
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/zixiliuUSC/EE660-course-project/blob/master/LICENSE.md](https://github.com/zixiliuUSC/EE660-course-project/blob/master/LICENSE.md)
 
 
 
