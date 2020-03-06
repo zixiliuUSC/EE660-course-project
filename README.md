@@ -1,11 +1,13 @@
 # Amazon Review Sentiment Analysis
 > This project is to build a natural language processing system fitting the relation between Amazon review text and the coresponding product rating. 
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![sklearn Version][sklearn-image]][sklearn-url]
+[![Downloads Stats][sklearn-downloads]][sklearn-url]
+[![Gensim Version][gensim-image]][gensim-url]
+[![NLTK Version][NLTK-image]][NLTK-url]
+[![numpy version][numpy-image]][numpy-url]
 
-One to two paragraph statement about your product and what it does.
+In this project, I use two different language models as feature extraction methods which are TF-IDF and word2vec. Among them, word2vec model is to learn semantic vectors of words by using an unsupervised machine learning model based on 2-layer perceptron classification machine. TF-IDF model is term frequency counting model and I will use PCA algorithm to reduce feature dimension. In order to deal with class imbalance, I use SMOTE techniques to do re-sampling. In the classification, I fine tune and compare the performance between logistic regression, linear regression, decision tree, Adaboost and Gaussian Naive Bayes. In some of this technique, I also use regularization method to do feature reduction. Finally, the evaluation is mainly use F1-macro score for overall performance comparison and F1 score for comparing the performance in each class.
 
 ![](header.png)
 
@@ -70,9 +72,13 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[sklearn-image]: https://img.shields.io/badge/sklearn-0.21.3-blue
+[sklearn-url]: https://scikit-learn.org/stable/
+[sklearn-downloads]: https://img.shields.io/badge/sklearn-download-blue
 [wiki]: https://github.com/yourname/yourproject/wiki
+[gensim-image]:https://img.shields.io/badge/gensim-3.8.1-brightgreen
+[gensim-url]: https://radimrehurek.com/gensim/
+[NLTK-image]:https://img.shields.io/badge/NLTK-3.4.5-yellow
+[NLTK-url]:https://www.nltk.org/
+[numpy-image]:https://img.shields.io/badge/numpy-1.16.2-orange
+[numpy-url]:https://numpy.org/
