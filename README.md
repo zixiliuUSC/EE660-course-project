@@ -28,7 +28,7 @@ All source codes are placed in w2v_train directory. To see all result in [EE_660
 
 ## Meta
 
-Zixi Liu – [@Yourlinkedin](https://www.linkedin.com/in/zixi-liu-403733159/) 
+Zixi Liu – [@ZixiLiulinkedin](https://www.linkedin.com/in/zixi-liu-403733159/) 
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
